@@ -1,0 +1,27 @@
+<% content_for :body do %>
+  <ul id="testimonials">
+    <% @testimonials.each do |testimonial| %>
+	  <li>
+	    <div class = "testi_list_container">
+	      <div class = "testi_list_img_container">
+		    <%= link_to (image_fu testimonial.photo, nil), refinery.testimonials_testimonial_path(testimonial) %>
+		  </div>
+		  <div class = "testi_list_txt_container">
+              <div class = "testi_list_header"><%= raw testimonial.title %></div><br>
+              <div class = "testi_list_header"><%= raw testimonial.date.strftime('%B %Y') %></div>
+			  <p><%=raw truncate(testimonial.text,  
+                :length => 350) %>
+				<%= link_to "Read More", refinery.testimonials_testimonial_path(testimonial) %></p>
+			  
+		  </div>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>
+
+  <div class="testi_pagination">
+    <%= will_paginate(@users, :previous_label => 'Previous', :next_label => 'Next')  %>
+  </div>

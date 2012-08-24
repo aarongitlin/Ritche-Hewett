@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<%= render '/refinery/html_tag' %>
+  <% site_bar = render('/refinery/site_bar', :head => true) -%>
+  <%= render '/refinery/head' %>
+  <body>
+   <div class="main_contain">
+    <%= site_bar -%>
+    <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
+    <div id="page_container">
+	  <div class = "title_div">
+	    <p class = "title">Ritchie Hewett</p>
+	    <p class = "subtitle">simply... meaningful</p>
+      </div>
+      <section id="page">
+        <%= yield %>
+      </section>
+      <header id="header">
+        <%= render '/refinery/header' -%>
+      </header>
+      <footer>
+        <%= render '/refinery/footer' -%>
+      </footer>
+    </div>
+    <%= render '/refinery/javascripts' %>
+	</div>
+  </body>
+</html>

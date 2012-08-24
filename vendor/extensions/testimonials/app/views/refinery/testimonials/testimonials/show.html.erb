@@ -1,0 +1,41 @@
+<% content_for :body_content_title do %>
+  <div id ="testi_title">
+     <%= @testimonial.title %>
+  </div>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <div id="testi_img">
+      <%= image_fu @testimonial.photo, nil %>
+    </div>
+  </section>
+  
+ <div id="testi_b_container">
+  <section>
+    <div id="testi_b1">
+      <%=raw @testimonial.text %>
+    </div>
+    <div id="testi_b2">
+      <%=raw @testimonial.date.strftime('%B %Y')  %><br>
+      <%=raw @testimonial.area %><br>
+      <%=raw @testimonial.location %>
+	</div>
+  </section>
+ </div>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="testimonials">
+      <% @testimonials.each do |testimonial| %>
+        <li>
+          <%= link_to testimonial.title, refinery.testimonials_testimonial_path(testimonial) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

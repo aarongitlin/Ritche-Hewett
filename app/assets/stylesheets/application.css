@@ -1,0 +1,141 @@
+body {
+  background: #DDD;
+  font-family: Verdana;
+  font-size: 13px;
+}
+/* Main view */
+.main_contain{
+  background:white;
+  width:950px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.title_div{
+  text-align:center;
+  padding: 10px;
+}
+p.title{
+  font-size:60px;
+  font-family: Helvetica;
+  margin-bottom: 10px;
+}
+p.subtitle{
+  font-size:20px;
+  font-family:Helvetica;
+  margin-top: 10px;
+}
+/* Testimonials */
+.testi_pagination {
+  background: white;
+  display: block;
+  text-align: center;
+  /* self-clearing method: */ }
+  .testi_pagination a, .testi_pagination span, .testi_pagination em {
+    padding: 4px 14px;
+    margin-right: 5px; }
+  .testi_pagination .disabled {
+    color: #999999;
+    border: 1px solid #dddddd; }
+  .testi_pagination .current {
+    font-style: normal;
+    font-weight: bold;
+    background: #acacac;
+    display: inline-block;
+    color: black;
+    border: 1px solid #e6e6e6; }
+  .testi_pagination a {
+    text-decoration: none;
+    color: #105cb6;
+    border: 1px solid #9aafe5; }
+    .testi_pagination a:hover, .testi_pagination a:focus {
+      color: #000033;
+      border-color: #000033; }	
+
+.testi_list_header{
+  font-size:25px;
+  font-family:Helvetica;
+  line-height:10px;
+}
+.testi_list_container{
+  width:800px;
+  clear:both;
+  padding-top:50px;
+}
+.testi_list_img_container{
+  width:400px;
+  height:250px;
+  text-align:center;
+  float:left;
+}
+.testi_list_txt_container{
+  font-style:Arial;
+  width:360px;
+  float:right;
+  padding:5px;
+}
+
+#testimonials li{
+  list-style-type: none;
+  display: inline;
+}
+
+#testimonials img{
+  max-height:250px;
+  max-width:375px;
+  height:auto;
+  width:auto;  
+}
+/* Testimonial */
+#testi_title{
+  font-family: Helvetica;
+  font-size:40px;
+  text-align: center;
+  padding: 20px;
+}
+
+#testi_b_container{
+  width:820px;
+  padding-left:40px;
+}
+
+#testi_b1{
+  width: 500px;
+  float:left;
+}
+
+#testi_b2{
+  width: 280px;
+  float:right;
+}
+
+#testi_img{
+  text-align: center;
+}
+#testi_img img{
+
+  max-height:400px;
+  max-width:900px;
+  height:auto;
+  width:auto;
+}
+/* Menu */
+#menu_bot {
+  text-align:center;
+}
+#navlist li{
+  display: inline;
+  padding-right: 15px;
+}
+/* Footer */
+.footer{
+  text-align:center;
+}
+
+/************************************/
+#body_content, #side_body_content {
+  margin-left:auto;
+  margin-right:auto;
+  width: 900px;
+  color: #333;
+  padding: 20px;
+}
