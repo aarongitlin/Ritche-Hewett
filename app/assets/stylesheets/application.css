@@ -25,12 +25,36 @@ p.subtitle{
   margin-top: 10px;
 }
 #img_slider{
-width:570px;
-background:green;
+  margin-left:auto;
+  margin-right:auto;
+  width:700px;
+  height:400px;
 }
 #img_slider  li{
   list-style-type: none;
   display: inline;
+}
+.bx-next {
+	position:absolute;
+	top:34%;
+	right: 20px;
+	z-index:999;
+	width: 60px;
+	height: 60px;
+	text-indent: -999999px;
+	background: red;/*url(gray_next.png) no-repeat 0 -30px;*/
+}
+
+/*previous button*/
+.bx-prev {
+	position:absolute;
+	top:34%;
+	left: 20px;
+	z-index:999;
+	width: 60px;
+	height: 60px;
+	text-indent: -999999px;
+	background: red;/*url(gray_prev.png) no-repeat 0 -30px;*/
 }
 
 /* Testimonials */
