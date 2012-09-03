@@ -24,6 +24,15 @@ p.subtitle{
   font-family:Helvetica;
   margin-top: 10px;
 }
+#img_slider{
+width:570px;
+background:green;
+}
+#img_slider  li{
+  list-style-type: none;
+  display: inline;
+}
+
 /* Testimonials */
 .testi_pagination {
   background: white;
