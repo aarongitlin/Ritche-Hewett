@@ -12,8 +12,9 @@
  *= require_self
  *= require base
  *= require layout
+ *= require_tree .
 */
-
+/*
 body {
   background: #DDD;
   font-family: Verdana;
@@ -189,3 +190,4 @@ p.subtitle{
   color: #333;
   padding: 20px;
 }
+*/
