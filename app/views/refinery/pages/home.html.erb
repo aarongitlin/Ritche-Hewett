@@ -8,6 +8,13 @@ $('#slider1').bxSlider({
   });
   });
 </script>
+
+ <% controller.test_mod %>
+ 
+   <% @testimonials.each do |testimonial| %>
+	  <%= raw testimonial.title %>
+   <% end %>
+
 <center><div id="img_slider">
         <div id="slider1">
           <div>
