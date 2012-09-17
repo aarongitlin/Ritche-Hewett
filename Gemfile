@@ -62,4 +62,7 @@ gem 'fog'
 # Postgres support (added for Heroku)
 gem 'pg'
 
+# To deal with database writing error on heroku
+gem 'psych'
+
 gem 'refinerycms-testimonials', :path => 'vendor/extensions'

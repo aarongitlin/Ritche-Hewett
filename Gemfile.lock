@@ -114,6 +114,7 @@ GEM
     pg (0.14.0)
     pg (0.14.0-x86-mingw32)
     polyglot (0.3.3)
+    psych (1.3.4)
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -230,6 +231,7 @@ DEPENDENCIES
   heroku
   jquery-rails (~> 2.0.0)
   pg
+  psych
   rails (= 3.2.8)
   refinerycms (~> 2.0.0)
   refinerycms-i18n (~> 2.0.0)
