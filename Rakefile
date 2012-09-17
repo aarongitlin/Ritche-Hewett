@@ -4,4 +4,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+<<<<<<< HEAD
 UpTest::Application.load_tasks
+=======
+RitchieHewett::Application.load_tasks
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800

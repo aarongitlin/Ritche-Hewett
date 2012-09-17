@@ -15,7 +15,11 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+<<<<<<< HEAD
 module UpTest
+=======
+module RitchieHewett
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -61,6 +65,10 @@ module UpTest
 
     # Enable the asset pipeline
     config.assets.enabled = true
+<<<<<<< HEAD
+=======
+	config.assets.initialize_on_precompile = true
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'

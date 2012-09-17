@@ -6,7 +6,14 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
+<<<<<<< HEAD
   gem 'sqlite3' 
+=======
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 end
 
 
@@ -45,6 +52,7 @@ gem 'refinerycms', '~> 2.0.0'
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-blog', '~> 2.0.0'
+<<<<<<< HEAD
   gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
@@ -58,4 +66,10 @@ gem 'fog'
 # Postgres support (added for Heroku)
 gem 'pg'
 
+=======
+#  gem 'refinerycms-inquiries', '~> 2.0.0'
+#  gem 'refinerycms-search', '~> 2.0.0'
+#  gem 'refinerycms-page-images', '~> 2.0.0'
+
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 gem 'refinerycms-testimonials', :path => 'vendor/extensions'

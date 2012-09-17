@@ -12,7 +12,11 @@ body {
 }
 .title_div{
   text-align:center;
+<<<<<<< HEAD
   padding:1px;
+=======
+  padding: 10px;
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 }
 p.title{
   font-size:60px;
@@ -24,6 +28,7 @@ p.subtitle{
   font-family:Helvetica;
   margin-top: 10px;
 }
+<<<<<<< HEAD
 #img_slider{
   margin-left:auto;
   margin-right:auto;
@@ -57,6 +62,8 @@ p.subtitle{
 	background: red;/*url(gray_prev.png) no-repeat 0 -30px;*/
 }
 
+=======
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 /* Testimonials */
 .testi_pagination {
   background: white;

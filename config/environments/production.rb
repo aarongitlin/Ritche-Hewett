@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 UpTest::Application.configure do
+=======
+RitchieHewett::Application.configure do
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

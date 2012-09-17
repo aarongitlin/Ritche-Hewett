@@ -11,6 +11,9 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Testimonials extension
 Refinery::Testimonials::Engine.load_seed
+<<<<<<< HEAD
 
 # Added by Refinery CMS Inquiries engine
 Refinery::Inquiries::Engine.load_seed
+=======
+>>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
