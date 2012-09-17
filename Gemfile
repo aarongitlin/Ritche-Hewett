@@ -62,7 +62,8 @@ gem 'fog'
 # Postgres support (added for Heroku)
 gem 'pg'
 
-# To deal with database writing error on heroku
+# To deal with database seeding error on heroku. Didn't like built it Syck YAML parser for some reason. 
+# I think related to inquiries engine
 gem 'psych'
 
 gem 'refinerycms-testimonials', :path => 'vendor/extensions'
