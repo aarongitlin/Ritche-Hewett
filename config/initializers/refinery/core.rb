@@ -25,22 +25,16 @@ Refinery::Core.configure do |config|
   # config.authenticity_token_on_frontend = true
 
   # Hide/show child pages in menu
-<<<<<<< HEAD
   # config.menu_hide_children = false
-=======
   # config.menu_hide_children = true
->>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 
   # CSS class selectors for menu helper
   # config.menu_css = {:selected=>"selected", :first=>"first", :last=>"last"}
 
   # Should set this if concerned about DOS attacks. See
   # http://markevans.github.com/dragonfly/file.Configuration.html#Configuration
-<<<<<<< HEAD
   # config.dragonfly_secret = "262abfc48cf1bd0eb2297953df703a1256526c07cc078129"
-=======
   # config.dragonfly_secret = "62c315083334f3beb1c7ba5cf6d288861db32c0705420a86"
->>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 
   # Show/hide IE6 upgrade message in the backend
   # config.ie6_upgrade_message_enabled = true

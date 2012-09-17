@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-UpTest::Application.routes.draw do
-=======
+
 RitchieHewett::Application.routes.draw do
->>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
 
   # This line mounts Refinery's routes at the root of your application.
   # This means, any requests to the root URL of your application will go to Refinery::PagesController#home.

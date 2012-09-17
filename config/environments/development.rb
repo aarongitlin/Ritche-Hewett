@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-UpTest::Application.configure do
-=======
+
 RitchieHewett::Application.configure do
->>>>>>> 0f931fa22ffa169294ea2cf519994dfb75bac800
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
